@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Background color for the entire card -->
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Set the background color -->
+        </shape>
+    </item>
+    <item>
+        <!-- Border for the card -->
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Transparent color for the inner area -->
+            <stroke
+                android:width="5dp"
+            android:color="@color/purple_500" /> <!-- Set the border color -->
+        </shape>
+    </item>
+</layer-list>
